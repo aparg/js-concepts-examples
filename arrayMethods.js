@@ -1,3 +1,4 @@
+arr = [10, 1, 2, 4, 3];
 //return even numbers using filter method
 let evenArray = arr.filter((a) => a % 2 == 0);
 console.log(evenArray);
@@ -18,9 +19,9 @@ console.log("Include 5:" + arr.includes(5)); //returns false
 console.log(`Incudes 4: ${arr.includes(4)}`); //returns true
 
 //find method
-console.log(arr.find((value) => value % 4 > 0)); //returns 10
+console.log(arr.find((value) => value % 4 > 0)); //returns 1 from  [1,2,3,4,10]
 
-arr.forEach((element) => element + 90);
+arr.forEach((element) => console.log(element)); //logs each element
 
 //array splice
 let automobiles = ["car", "bus", "truck", "cat"];
@@ -42,9 +43,9 @@ array1.pop(100);
 console.log(array1);
 
 //shift unshift in array
-array1.shift();//remove first element of array
+array1.shift(); //remove first element of array
 console.log(array1);
-array1.unshift(100,99);//add 100,99 to the end of array
+array1.unshift(100, 99); //add 100,99 to the end of array
 console.log(array1);
 
 //boolean
