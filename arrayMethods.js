@@ -1,14 +1,4 @@
-let newString = "stringValue";
-let a = 10; //number
-let carObj = {
-  color: "black",
-  brand: "nissan",
-};
-
-//array
-let arr = [10, 2, 4, 3, 1];
-
-//return even numbers using filter methid
+//return even numbers using filter method
 let evenArray = arr.filter((a) => a % 2 == 0);
 console.log(evenArray);
 
